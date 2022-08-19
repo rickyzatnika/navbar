@@ -7,7 +7,7 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #9b9b9b;
   text-decoration: none;
 }
 
@@ -15,12 +15,12 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.activeTab {
+  color: rgb(11, 174, 174);
+}
+.aboutTab {
+  color: gold;
+}
+.contactTab {
+  color: orange;
 }

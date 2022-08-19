@@ -1,7 +1,21 @@
-import '../styles/globals.css'
+import "../styles/globals.css";
+import Layout from "../components/Layout";
+// import { ThemeProvider } from "styled-components";
+import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+      </Head>
+
+      <Layout>
+        <Component {...pageProps} />
+      </Layout>
+
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

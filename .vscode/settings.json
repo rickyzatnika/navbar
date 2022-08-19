@@ -1,0 +1,30 @@
+{
+                                        "tailwindCSS.emmetCompletions": true,
+                                        "js/ts.implicitProjectConfig.checkJs": false,
+                                        "workbench.settings.useSplitJSON": true,
+                                        "editor.detectIndentation": true,
+                                        "editor.glyphMargin": false,
+                                        "editor.guides.bracketPairs": "active",
+                                        "editor.quickSuggestions": {
+                                            "other": "true",
+                                            "comments": "off",
+                                            "strings": "off"
+                                        },
+                                        "editor.fontLigatures": true,
+                                        "diffEditor.maxFileSize": 0,
+                                        "workbench.editor.autoLockGroups": {
+                                            "default": true
+                                        },
+                                        "workbench.settings.editor": "json",
+                                        "terminal.integrated.fontSize": 10,
+                                        "terminal.integrated.ignoreProcessNames": [
+                                            "oh-my-posh",
+                                            "bash",
+                                            "zsh"
+                                        ],
+                                        "terminal.integrated.letterSpacing": 1,
+                                        "terminal.integrated.lineHeight": 0,
+                                        "terminal.integrated.fontFamily": "'Poppins', monospace",
+                                        "terminal.integrated.fontWeight": "500",
+                                        "reactSnippets.settings.importReactOnTop": true,
+}
