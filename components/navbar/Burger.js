@@ -21,7 +21,7 @@ export default Burger;
 
 const StyledBurger = styled.button`
     position: absolute;
-    top: 3.3%;
+    top: 3%;
     right: 2rem;
     display: flex;
     flex-direction: column;
@@ -37,9 +37,8 @@ const StyledBurger = styled.button`
     z-index: 10;
 
     @media screen and (max-width: 328px) {
-            top: 3%;
-        }
-    
+        top: 1.5rem;
+    }
     
 
     span {
