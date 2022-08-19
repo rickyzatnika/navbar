@@ -70,9 +70,12 @@ const NavItem = styled.ul`
         left: 0;
         z-index: ${({ open }) => open ? '1' : '-1'};
         transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
-
         
+        @media screen and (max-width: 328px) {
+            height: 63%;
+        }
     }
+
 `
 
 const NavLink = styled.li`
@@ -84,7 +87,7 @@ const NavLink = styled.li`
         color: rgba(255, 255, 255, 0.9);
         text-shadow: 0px 0px 5px #333151;
         text-decoration: none;
-        font-size:  calc(1vh + 1vw + 1vmin);
+        font-size:  calc(1vh + 1vw + 2vmin);
         margin: 5px 0 ;
         line-height: 5rem;
     }
@@ -100,6 +103,10 @@ const NavLink = styled.li`
             0px 0px 7px 1px #333151
             ;
         padding: 0.8rem;
+
+        @media screen and (max-width: 328px){
+             padding: 0.6rem;
+        }
     }
 
 
